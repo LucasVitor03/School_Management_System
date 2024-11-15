@@ -14,4 +14,4 @@ class Aluno:
         self.matricula = input("Digite a nova matricula do aluno: ")
         self.email = input("Digite o novo email do aluno: ")
         print("\n----Os dados do aluno foram atualizados----")
-        print(f"{self.mostrar_aluno()}")
+        self.mostrar_aluno()
